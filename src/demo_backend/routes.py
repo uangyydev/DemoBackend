@@ -12,5 +12,5 @@ def home():
 
 @main_routes.route("/print-cookies")
 def print_cookies():
-    print(request.cookies)
-    return request.cookies
+    print(f"args: {request.args}")
+    return "Hello world"
