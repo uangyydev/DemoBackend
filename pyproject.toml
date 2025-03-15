@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DemoBackend"
+version = "0.0.1"
+description = "A sample Python backend"
+authors = [{ name = "uangyydev", email = "uangyy+dev@gmail.com" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["Flask>=3.1"]
